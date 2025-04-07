@@ -1,6 +1,6 @@
 # PartageTaPlaylist
 
-A simple React training application.
+A simple React training application on ViteJS.
 
 ## About
 
