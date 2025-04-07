@@ -1,5 +1,13 @@
 .card-image {
     width: 70%;
+    border: solid rgb(0, 0, 0) 3px;
+    box-shadow: 10px 7px 10px rgba(99, 99, 99, 0.336) ;
+    transition: 1s;
+}
+
+.card-image:hover {
+    background-color: black;
+    border: solid rgb(255, 94, 0) 3px
 }
 
 .card-list {
@@ -7,3 +15,16 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.cardplaylist {
+    padding: 1rem;
+    background: #161616;
+    border-radius:50px ;
+}
+
+h1 {
+    color: rgba(255, 255, 255, 0.849);
+}
+
+h2 {
+    color: white;
+}

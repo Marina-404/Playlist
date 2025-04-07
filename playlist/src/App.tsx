@@ -18,7 +18,7 @@ function App() {
 				</nav>
 			</div>
       
-      <div>
+      <div className="cardplaylist">
         <h1>Ecoute ta Playlist !</h1>
         <CardList />
       </div>

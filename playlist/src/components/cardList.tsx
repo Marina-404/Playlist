@@ -5,7 +5,7 @@ const playlists: Playlist[] = [
     { title: "Electro", picture: "../images/electro.jpeg"},
     { title: "Funk", picture: "../images/funk.png" },
     { title: "Kpop", picture: "../images/kpop.jpeg" },
-    { title: "R&B", picture: "../images/rap.jpg" },
+    { title: "Rap", picture: "../images/rap.jpg" },
     { title: "Rock", picture: "../images/rock.webp" },
 ];
 
