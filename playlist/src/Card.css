@@ -1,0 +1,9 @@
+.card-image {
+    width: 70%;
+}
+
+.card-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+

@@ -1,6 +1,9 @@
-import "./App.css";
-import Footer from "./components/footer";
 import Navbar from "./components/navBar";
+import CardList from './components/cardList'
+import Footer from "./components/footer";
+
+import './App.css'
+import './Card.css'
 
 function App() {
 	return (
@@ -14,12 +17,18 @@ function App() {
 					/>
 				</nav>
 			</div>
-
+      
+      <div>
+        <h1>Ecoute ta Playlist !</h1>
+        <CardList />
+      </div>
+      
 			<div className="footer-container">
 				<footer>
 					<Footer siteName="PartageTaPlaylist" />
 				</footer>
 			</div>
+      
 		</>
 	);
 }
