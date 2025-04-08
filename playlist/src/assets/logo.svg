@@ -1,0 +1,14 @@
+<svg viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Définition du dégradé -->
+  <defs>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#1ed760" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Texte "PartageTaPlaylist" -->
+  <text x="10" y="70" font-family="Arial, sans-serif" font-size="45" font-weight="bold" fill="url(#textGradient)">
+    PartageTa<tspan fill="#1ed760">Playlist</tspan>
+  </text>
+</svg>

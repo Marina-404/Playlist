@@ -3,18 +3,56 @@
 }
 
 .navigateur {
-  background-color: #1f1f1f;
- 
+  background-color: #1212128c;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+  margin-bottom: 5vh;
 }
 
 .navbar-container {
-  padding: 2vh;
-  margin-bottom: 5vh;
-  text-decoration: none;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5vh 5%;
   display: flex;
-  justify-content: space-around;
-  
+  align-items: center;
+  justify-content: space-between;
 }
+
+.logo {
+  height: 50px;
+  transition: transform 0.3 ease;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+.navbar-container a {
+  color: #e0e0e0;
+  font-weight: 500;
+  text-decoration: none;
+  position: relative;
+  padding: 0.5rem 0;
+  transition: color 0.3s ease;
+}
+
+.navbar-container a:hover {
+  color: #1ed75f;
+}
+
+
+.footer-container {
+  font-weight: bold;
+  background-color: #121212c4;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+  margin-top: 5vh;
+}
+
+.footer-container p:hover {
+  color: #1ed75f;
+}
+
 
 a {
   text-decoration: inherit;
