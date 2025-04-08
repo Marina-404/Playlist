@@ -1,13 +1,25 @@
-.card-image {
-    width: 70%;
-    border: solid rgb(0, 0, 0) 3px;
-    box-shadow: 10px 7px 10px rgba(99, 99, 99, 0.336) ;
-    transition: 1s;
+.card {
+    background-color: #1f1f1f;
+    margin: 30px 30px 30px 60px;
+    border-radius: 10px;
+    transition: 0.5s;
+    border: solid black 1px;
+    box-shadow: 10px 7px 10px rgba(0, 0, 0, 0.3);
+    width: 65%;
+
 }
 
-.card-image:hover {
-    background-color: black;
-    border: solid rgb(255, 94, 0) 3px
+.card:hover {
+    border: solid  #0c6129 3px;
+    transform: translateY(-15px);
+    box-shadow: 10px 7px 10px rgba(99, 99, 99, 0.336);
+
+}
+
+.card-image {
+    width: 100%;
+    transition: 1s;
+    border-radius: 5px 5px 0 0;
 }
 
 .card-list {
@@ -17,14 +29,36 @@
 
 .cardplaylist {
     padding: 1rem;
-    background: #161616;
+    background: #161616bd;
+    border: solid #149c448f 2px;
+    box-shadow: 0px 0px 30px #1ed75f65 ;
     border-radius:50px ;
+    width: 60%;
+    margin: 0 20%;
+
+}
+
+.genre {
+ text-align: center;
+ border-radius: 20px;
+ background-color: black;
+ color: rgb(160, 160, 160);
+ margin: 5px;
 }
 
 h1 {
-    color: rgba(255, 255, 255, 0.849);
+    color: white;
 }
 
 h2 {
     color: white;
+    text-align: left;
+    margin-left: 0.7em;
+    margin-top: 0.2em;
+}
+
+.description {
+    color: white;
+    text-align: left;
+    margin: 0 1em 1.5em;
 }

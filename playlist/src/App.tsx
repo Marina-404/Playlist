@@ -8,7 +8,7 @@ import './Card.css'
 function App() {
 	return (
 		<>
-			<div className="navbar-container">
+			<div>
 				<nav>
 					<Navbar
 						logo={"PartageTaPlaylist"}
@@ -18,10 +18,10 @@ function App() {
 				</nav>
 			</div>
       
-      <div className="cardplaylist">
-        <h1>Ecoute ta Playlist !</h1>
-        <CardList />
-      </div>
+			<div className="cardplaylist">
+				<h1>les Playlists tendances !</h1>
+				<CardList />
+			</div>
       
 			<div className="footer-container">
 				<footer>
