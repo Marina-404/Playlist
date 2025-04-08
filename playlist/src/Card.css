@@ -40,10 +40,14 @@
 
 .genre {
  text-align: center;
+ font-size: 0.9em;
  border-radius: 20px;
- background-color: black;
- color: rgb(160, 160, 160);
- margin: 5px;
+ background-color: #149c448f;
+ color: rgb(255, 255, 255);
+ padding: 0 20px;
+ margin: 0.7em;
+ display: inline-block;
+ margin-right: 60%;
 }
 
 h1 {
