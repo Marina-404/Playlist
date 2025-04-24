@@ -30,3 +30,5 @@ npm install
 # Launch development server
 npm run dev
 ```
+
+!(./playlist/images/1744286367865.gif)
