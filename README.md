@@ -31,4 +31,4 @@ npm install
 npm run dev
 ```
 
-!(./playlist/images/1744286367865.gif)
+![demo](./playlist/images/1744286367865.gif)
