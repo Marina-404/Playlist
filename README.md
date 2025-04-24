@@ -1,22 +1,27 @@
-# PartageTaPlaylist
+# PartageTaPlaylist 🎧
 
 A simple React training application using ViteJS.
 
-## About
+## About ℹ️
 
 PartageTaPlaylist is a one-page application developed to practice React and TypeScript basics. This project is part of our training exercises to master frontend development.
 
-## Learning Objectives
+## Learning Objectives 🎯
 
 - Basic structure of a React application
 - Using components (Navbar, Footer, Card, CardList)
 - Managing props between components
 
-## Technologies
+## Technologies 🛠️
 
-- React
-- TypeScript
-- CSS
+- React ⚛️
+- TypeScript 🖋️
+- CSS 🎨
+
+  
+##  DEMO🎬
+
+![demo](./playlist/images/1744286367865.gif)
 
 ## You want test ?
 
@@ -30,5 +35,3 @@ npm install
 # Launch development server
 npm run dev
 ```
-
-![demo](./playlist/images/1744286367865.gif)
